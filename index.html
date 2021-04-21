@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title> SAHARA DESERT </title>
+    <link rel="stylesheet" href="decorate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <ul class="mrnu">
+
+        <li class="links"> <a href="#welcome"> About/Fun Facts </a></li>
+        <li class="links"> <a href="#videos"> Image gallery </a> </li>
+        <li class="links"> <a href="#work"> Why to visit </a></li>
+        <li class="links"> <a href="#writings"> Reviews </a> </li>
+        <li class="links"> <a href="#contacts"> How to go there </a></li>
+
+
+
+
+    </ul>
+    <section id="welcome" class="pc">
+        <div class="pi">
+            <img src="sahara.jpg" class="profile">
+            <h1> THE VAST SAHARA DESERT </h1>
+            <h2> By: Sriya Annavaram </h2>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="bio">
+           <h1> FUN FACTS 😁 </h1>
+        <div class="line"> </div>
+        <h2> - It is 3.6 million square miles, and as big as China!</h2>
+        <br>
+        <h2> - Dunes can reach 180 meters in height!</h2>
+        <br>
+        <h2> - Bedouin people live here, and they travel on Camels. (They are nice) </h2>
+        <br>
+        <h2> - Many dinasour fossils have been found here. </h2>
+        <br>
+        <h2> - It is actually not mostly sand, it is mostly rock!</h2>
+        <br>
+        <h2> - It has been used for the set of Star Wars!</h2>
+        <br>
+    </section>
+
+    <section id="videos">
+        <center>
+            <h1> Image Gallery </h1>
+            <div class="line"></div>
+            <h3> Click next to view the next image</h3>
+            <img id="phalbum" src="https://projectsassets.s3.us-east-2.amazonaws.com/Monkey_01.png">
+            <br> <br>
+            <button id="moveit" type="button" onclick="walk()"> Next </button>
+            <script>
+                var album = ["sahara.jpg", "sahara 2.jpg", "sahara 3.jpg", "sahara 4.jpg", "sahara 5.jpg"]
+
+
+                var i = 0;
+
+                function walk() {
+                    document.getElementById("phalbum").src = album[i];
+                    i++;
+                    if (i > 4) {
+                        i = 0;
+                    }
+                }
+
+            </script>
+
+    </section>
+
+    <section id="work">
+        <center>
+            <h1> WHY TO VISIT 😁 </h1>
+        <div class="line"> </div>
+        <p> The Sahara desert is not exactly a place that is bursting with life. However, even places that aren't can be just as fascinating. Read on to find out why. </p>
+        <br> <br>
+        <h2> - The beauty and tranquillity of the Sahara is unlike no other. The sight of a clear 360 degrees of the horizon is magical. </h2>
+        <br>
+        <h2> - The sky at night is a beautiful scene, where it isn't as hot as the daytime. Sleeping under the stars is a magical experience because of the clearness of the sky, with no trees or buildings to block the view. </h2>
+        <br>
+        <h2> - If you are one of those people that only visit places for food, you're in luck! In the open air, the food tastes delicious. They are organic and cooked on open fire. There are salads, fruit, and varieties of meat tossed on oil. There is pasta and different spices. If you are worried, don't. Bedouin men are great cooks.</h2>
+        <br>
+        <h2> - If you love adventure, a day in the Sahara is filled with excitement. It can be easy to lose your belongings, so you have to scavenge for it. You have to be Hansel and Gretel to remember your way back to camp, and hope vultures don't eat your bread crumbs. If you are scared of getting lost, the Bedouin can easily find you from their experience in the desert. Just wait where you are and you will be found. </h2>
+        <br>
+        <img src=sahara%202.jpg>
+        </center>
+
+    </section>
+
+    <section id="writings">
+        <center>
+            <h1> REVIEWS </h1>
+            <h3> See what other people thought about going to the Sahara </h3>
+            <div class="line"></div>
+            <br> <br>
+            <div>
+            <img id = "sahara7" src = "sahara%206.png">
+                <br> <br>
+            <img id = "sahara 6" src = "sahara%207.png">
+            </div>
+                <style> 
+                #sahara7 {
+                 width: 1000px;
+                }
+                #sahara6 {
+                    width: 10px;
+                }
+            
+            </style>
+            
+        </center>
+
+
+
+    </section>
+
+    <section id="contacts">
+
+        <h1> CONTACT </h1>
+        <div class="line"></div>
+        <br> <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15154942.570331177!2d13.086795630330572!3d21.975375078335702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13883b64fb267151%3A0xd6406bdc582d7390!2sSahara%20Desert!5e0!3m2!1sen!2sus!4v1618415202831!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="contact_1">
+<h1> Call 01769 309007 or (click the reach out to me to prove that I did it and it is not plagiarized</h1>
+            <a href="mailto:203378865@fcstu.com?Subject=<Hello!>">
+                <i class="fa fa-envelope"> </i> &nbsp;&nbsp; Reach out to me!
+            </a>
+
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+</body>
+
+</html>

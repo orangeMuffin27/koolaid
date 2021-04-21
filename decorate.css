@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding-top: 600px;
+}
+
+.profile {
+    width: 250px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: darkorchid;
+
+}
+
+#welcome {
+    background-color: dodgerblue;
+    height: 900px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: table;
+    z-index: 3;
+    padding-top: 200px;
+}
+
+h1 {
+    color: crimson;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: Arial;
+    font-weight: 100;
+
+
+}
+
+h2 {
+    color: firebrick;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: Arial;
+    font-weight: 100;
+}
+
+#bio {
+    padding-top: 500px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+    background-color: chartreuse;
+
+}
+
+.line {
+    height: 6px;
+    background-color: firebrick;
+    width: 300px;
+    margin: 8px auto;
+}
+p {
+    max-width: 456px;
+    margin: 25px auto;
+    font-size: 20px; 
+    line-height: 1.2;
+    
+}
+
+.pi {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.mrnu {
+    list-style: none;
+    font-family: 'Architects Daughter', cursive;
+    position: fixed;
+    top: 10px;
+    right:40px;
+    z-index: 5;
+    cursor: pointer;
+}
+.links:hover {
+    background-color:yellowgreen;
+    transform: scale(1.5);
+}
+.links{
+    float: left;
+    color:coral;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+#videos{
+    background-color: bisque;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#work{
+    background-color:cornsilk;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#writings{
+    background-color: darkcyan;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.article{
+    color: floralwhite;
+    font-size: 20px;
+    
+    
+}
+.article:hover {
+    transform:scale(1.4);
+    color: burlywood;
+}
+
+#contacts {
+    background-color: coral;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.contact_1 {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px;
+}
